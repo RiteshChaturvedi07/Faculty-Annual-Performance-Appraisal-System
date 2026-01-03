@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+To run this project locally on your machine, you need a development environment that can transpile TypeScript and React (JSX), as browsers cannot execute .tsx files natively. I recommend using Vite, which is the industry standard for fast modern frontend development.
+Prerequisites
+Node.js (Version 18 or higher) installed on your computer.
+Setup Instructions
+Create a Project Folder: Create a new directory on your computer (e.g., faculty-appraisal).
+Save the Files: Copy and save all the files provided (including the new package.json and vite.config.ts below) into that root folder.
+Install Dependencies:
+Open your terminal/command prompt, navigate to the folder, and run:
+code
+Bash
 
-# Run and deploy your AI Studio app
+      npm install
 
-This contains everything you need to run your app locally.
+Start the Development Server:
+Run the following command to start the app:
+code
+Bash
 
-View your app in AI Studio: https://ai.studio/apps/drive/1gr5vkXVvFb5y-GrE9g5hofAcydo5hudI
+      npm run dev
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+View the App: Open your browser and navigate to the URL shown in the terminal (usually http://localhost:5173).
